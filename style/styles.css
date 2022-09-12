@@ -26,7 +26,7 @@ body {
 .attribution a { color: white; }
 
 .main-container {
-    width: 80%;
+    width: 90%;
     background-color: var(--dark-grayish-blue);
     margin: 10rem auto;
     border-radius: 10px;
@@ -53,9 +53,9 @@ body {
 }
 
 .main-container__button {
-    position: absolute;
-    top: 21%;
     background-color: var(--neon-green);
+    position: absolute;
+    top: 32%;
     padding: 2rem;
     border-radius: 100%;
     border: none;
