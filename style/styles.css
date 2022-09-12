@@ -23,7 +23,7 @@ body {
 }
 
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: white; }
 
 .main-container {
     width: 80%;
@@ -48,14 +48,13 @@ body {
     font-size: var(--font-size);
 }
 
-
 .image-divider {
-    margin: 3rem 0 5rem 0;
+    margin: 3rem 0 6rem 0;
 }
 
 .main-container__button {
     position: absolute;
-    top: 60%;
+    top: 21%;
     background-color: var(--neon-green);
     padding: 2rem;
     border-radius: 100%;
