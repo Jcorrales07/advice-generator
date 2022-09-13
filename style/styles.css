@@ -54,8 +54,7 @@ body {
 
 .main-container__button {
     background-color: var(--neon-green);
-    position: absolute;
-    top: 32%;
+    margin-bottom: -3rem;
     padding: 2rem;
     border-radius: 100%;
     border: none;
