@@ -17,6 +17,8 @@ const generateAdvice = () => {
         })
 }
 
+generateAdvice()
+
 const adviceButton = document.querySelector('.main-container__button');
 
 if (window.screen.width < 1024) {
