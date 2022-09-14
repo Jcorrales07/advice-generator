@@ -18,4 +18,10 @@ const generateAdvice = () => {
 }
 
 const adviceButton = document.querySelector('.main-container__button');
-adviceButton.addEventListener('click', generateAdvice);
+
+if (window.screen.width < 1024) {
+    adviceButton.addEventListener('touchstart', generateAdvice);
+} else {
+    adviceButton.addEventListener('click', generateAdvice);
+}
+
