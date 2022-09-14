@@ -47,6 +47,7 @@ body {
     color: var(--light-cyan);
     font-size: var(--font-size);
     text-align: center;
+    width: 80%;
 }
 
 .image-divider {
