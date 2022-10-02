@@ -54,7 +54,13 @@ body {
     margin: 3rem 0;
 }
 
-.main-container__button {
+.main-container__button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+button {
     background-color: var(--neon-green);
     margin-bottom: -3rem;
     padding: 2rem;
@@ -66,7 +72,20 @@ body {
     align-items: center;
 }
 
-.main-container__button:hover {
+.tweet-it-btn i {
+    color: white;
+    font-size: 2.4rem;
+}
+
+.tweet-it-btn {
+    background-color: #00acee;
+}
+
+.tweet-it-btn:hover {
+    box-shadow: #00acee 0px 0px 50px;
+}
+
+button:hover {
     box-shadow: var(--neon-green) 0px 0px 50px;
 }
 
